@@ -1,0 +1,1 @@
+This is a Playwright tutorial project with Github integration  
