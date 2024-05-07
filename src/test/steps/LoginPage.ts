@@ -3,7 +3,7 @@ import{chromium,Browser,Page, expect} from'@playwright/test'
 import { pageFixture } from '../../hooks/pageFixture';
 
 
-
+// This is just a commentaire
 Given('the user navigates to the application',async function() {
    // await pageFixture.page.goto("https://www.demoblaze.com/");
     await pageFixture.page.goto(process.env.BASEURL);
